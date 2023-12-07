@@ -1,6 +1,7 @@
 import date from "../../public/img/date.png";
 import time from "../../public/img/time.png";
 import place from "../../public/img/place.png";
+import underline from "../../public/img/underline.png";
 
 const data = [
   {
@@ -27,6 +28,7 @@ function Time() {
         <div key={index} className=" p-5 flex flex-col justify-center ">
           {/* <h1 className=" text-2xl p-10 font-bold ">{item.title}</h1> */}
           <img src={item.img} className=" h-20 w-auto object-contain" />
+          <img src={underline} className=" sm:h-2 lg:h-5  object-contain" />
           <p className="py-10">{item.description}</p>
         </div>
       ))}

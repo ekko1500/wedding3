@@ -7,6 +7,7 @@ import Storys from "./Storys";
 import bg from "../../public/img/bg.svg";
 import corner from "../../public/img/corner.svg";
 import flower from "../../public/img/flower.svg";
+import Thanks from "./Thanks";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
 
       <Time />
       <Map />
+      <Thanks />
     </div>
   );
 }

@@ -1,14 +1,16 @@
-import { image1, image10, image20 } from "../datas/Images";
+import { image3, image7, image26 } from "../datas/Images";
 import { Carousel } from "@material-tailwind/react";
 // import { Carousel } from "../app/page";
 import placeholder from "../../public/img/placeholder.png";
 import heart from "../../public/img/heart.svg";
+import cornerBottom from "../../public/img/corner-bottom.svg";
 
 export default function Slider() {
   return (
     <div className="flex h-screen items-center justify-center flex-col flex-1">
+      <img src={cornerBottom} className=" absolute bottom-0 right-0 w-44" />
       <div className="  lg:w-2/3 sm:w-1/2 flex items-center justify-center  ">
-        <div className=" absolute z-10 lg:w-3/6 sm:w-full">
+        <div className=" absolute z-10 lg:w-2/6 sm:w-full">
           <img src={heart} />
         </div>
 
@@ -42,19 +44,19 @@ export default function Slider() {
           />
         ))} */}
           <img
-            src={image1}
+            src={image3}
             alt="image 1"
             className="h-auto w-full object-cover"
             placeholder={placeholder}
           />
           <img
-            src={image10}
+            src={image7}
             alt="image 2"
             className="h-auto w-full object-cover"
             placeholder={placeholder}
           />
           <img
-            src={image20}
+            src={image26}
             alt="image 3"
             className="h-auto w-full object-cover"
             placeholder={placeholder}

@@ -27,7 +27,7 @@ import image26 from "../../public/img/forweb26.jpg";
 import image27 from "../../public/img/forweb27.jpg";
 import image28 from "../../public/img/forweb28.jpg";
 
-export { image1, image10, image20 };
+export { image3, image7, image26 };
 
 export const imageSlide = [image1, image2, image3, image4, image5];
 

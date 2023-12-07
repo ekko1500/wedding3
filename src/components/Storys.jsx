@@ -1,3 +1,6 @@
+import her from "../../public/img/her.png";
+import his from "../../public/img/his.png";
+
 const data = [
   {
     about:
@@ -6,6 +9,7 @@ const data = [
     name: "မောင်ဇေယျာနိုင်",
     status: "BE (Electronics Communication)",
     status2: "(Founder of Tele Boss Fiber Internet Service Co.,ltd)",
+    img: his,
   },
   {
     about:
@@ -14,6 +18,7 @@ const data = [
     name: "မခိုင်ဇာသွယ်",
     status: "BE (Civil) ",
     status2: "(ဆည်မြောင်းနှင့် ရေအသုံးချမှုစီမံခန့်ခွဲရေးဦးစီးဌာန -တောင်ငူ)",
+    img: her,
   },
 ];
 
@@ -39,10 +44,7 @@ function Storys() {
               </div>
             </div>
 
-            <img
-              src="https://img.lovepik.com/original_origin_pic/18/04/21/447fe18ca6b4d733995c93fb110024c3.png_wh860.png"
-              className=" relative w-1/2"
-            />
+            <img src={item.img} className=" relative w-1/2" />
           </div>
         ))}
       </div>
