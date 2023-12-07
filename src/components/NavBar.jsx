@@ -53,7 +53,7 @@ export default function NavBar() {
                       <a
                         key={item.name}
                         // href={item.href}
-                        onClick={() => navigate(`/${item.href}`)}
+                        onClick={() => navigate(`${item.href}`)}
                         className={classNames(
                           location.pathname.includes(item.name.toLowerCase())
                             ? "bg-gray-900 text-white"
