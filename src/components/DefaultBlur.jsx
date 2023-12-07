@@ -1,9 +1,6 @@
-import React from "react";
-import styles from "../styles/img.module.scss";
-import Image from "next/image";
-
-function DefaultBlur({ src }: any) {
-  return <Image src={src} alt="image" />;
+// eslint-disable-next-line react/prop-types
+function DefaultBlur({ src }) {
+  return <img src={src} alt="image" />;
 }
 
 export default DefaultBlur;

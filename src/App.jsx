@@ -1,25 +1,28 @@
 // import Gallery from "../components/Gallery";
 import { ThemeProvider } from "@material-tailwind/react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Slider from "./components/Slider";
-import HappyCouple from "./components/HappyCouple";
-import HisStory from "./components/HIsStory";
-import HerStory from "./components/HerStory";
-import Time from "./components/Time";
-import Map from "./components/Map";
+import Gallery from "./components/Gallery";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
       <ThemeProvider>
-        <NavBar />
-        <Slider />
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/gallery" element={<Gallery />}></Route>
 
-        <HappyCouple />
-        <HisStory />
-        <HerStory />
-        <Time />
-        <Map />
+            <Route path="/home" element={<Home />}></Route>
+            <Route path="*" element={<Navigate to="/home" replace />} />
+          </Routes>
+        </Router>
       </ThemeProvider>
     </>
   );

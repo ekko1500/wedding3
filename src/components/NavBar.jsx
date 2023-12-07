@@ -1,8 +1,9 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useLocation } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
+  { name: "Home", href: "/home", current: true },
   { name: "Gallery", href: "/gallery", current: false },
   { name: "About", href: "#", current: false },
 ];
@@ -12,6 +13,10 @@ function classNames(...classes) {
 }
 
 export default function NavBar() {
+  let location = useLocation();
+
+  console.log(location.pathname);
+
   return (
     <Disclosure as="nav" className="absolute  bg-blue-gray-700 z-10 w-full">
       {({ open }) => (
@@ -47,12 +52,16 @@ export default function NavBar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current
+                          location.pathname.includes(item.name.toLowerCase())
                             ? "bg-gray-900 text-white"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
-                        aria-current={item.current ? "page" : undefined}
+                        aria-current={
+                          location.pathname.includes(item.name)
+                            ? "page"
+                            : undefined
+                        }
                       >
                         {item.name}
                       </a>
