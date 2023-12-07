@@ -1,15 +1,14 @@
+// import bg2 from "../../public/img/bg2.svg";
+import cornerBottom from "../../public/img/corner-bottom.svg";
+
 function HappyCouple() {
   return (
-    <div className=" w-full flex flex-col items-center gap-4 text-center  bg-blue-gray-700 relative p-11 ">
+    <div className="  h-screen flex flex-col items-center justify-center gap-4 text-center   relative p-11 ">
+      <img src={cornerBottom} className=" absolute bottom-0 right-0 w-44" />
       <h2 className=" text-2xl p-5 font-bold">မင်္ဂလာဧည့်ခံပွဲဖိတ်ကြားလွှာ</h2>
 
       <h2 className=" text-2xl p-5 font-bold">Happy Couple</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada
-        aliquam nunc a pharetra. Pellentesque sit amet placerat magna. Nam ut
-        interdum urna, vitae consequat odio. Nullam porttitor sagittis ex quis
-        venenatis. Duis et neque pharetra, sagittis nisi nec, egestas risus.
-      </p>
+      <p></p>
     </div>
   );
 }

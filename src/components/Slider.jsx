@@ -1,15 +1,21 @@
-import { image11, image16, image28, image32 } from "../datas/Images";
+import { image1, image10, image20 } from "../datas/Images";
 import { Carousel } from "@material-tailwind/react";
 // import { Carousel } from "../app/page";
 import placeholder from "../../public/img/placeholder.png";
+import heart from "../../public/img/heart.svg";
 
 export default function Slider() {
   return (
-    <div className="flex items-center justify-center flex-col flex-1">
-      <div className=" pt-9 lg:w-1/2 sm:w-full ">
+    <div className="flex h-screen items-center justify-center flex-col flex-1">
+      <div className="  lg:w-2/3 sm:w-1/2 flex items-center justify-center  ">
+        <div className=" absolute z-10 lg:w-3/6 sm:w-full">
+          <img src={heart} />
+        </div>
+
         <Carousel
           loop={true}
           className=" "
+          autoplay
           navigation={({ setActiveIndex, activeIndex, length }) => (
             <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
               {new Array(length).fill("").map((_, i) => (
@@ -36,27 +42,21 @@ export default function Slider() {
           />
         ))} */}
           <img
-            src={image11}
+            src={image1}
             alt="image 1"
             className="h-auto w-full object-cover"
             placeholder={placeholder}
           />
           <img
-            src={image16}
+            src={image10}
             alt="image 2"
             className="h-auto w-full object-cover"
             placeholder={placeholder}
           />
           <img
-            src={image28}
+            src={image20}
             alt="image 3"
             className="h-auto w-full object-cover"
-            placeholder={placeholder}
-          />
-          <img
-            src={image32}
-            alt="image 3"
-            className="h-auto w-48 object-cover"
             placeholder={placeholder}
           />
         </Carousel>

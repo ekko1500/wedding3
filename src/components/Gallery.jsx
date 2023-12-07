@@ -13,9 +13,9 @@ function Gallery() {
   };
 
   return (
-    <div className="  pt-28">
-      <div className="flex w-full text-center items-center justify-center bg-blue-gray-400 p-7">
-        <h1 className=" text-5xl">Gallery</h1>
+    <div className="  ">
+      <div className="flex w-full text-center items-center justify-center  p-10">
+        <p className=" text-5xl pt-10">Gallery</p>
       </div>
       <Modal show={show} setShow={setShow} img={img} />
       <div className="sm:columns-2 md:columns-3 lg:columns-4 gap-3  mx-auto space-y-3 pb-28">
