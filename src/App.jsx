@@ -17,9 +17,8 @@ function App() {
         <Router>
           <NavBar />
           <Routes>
-            <Route path="/gallery" element={<Gallery />}></Route>
-
             <Route path="/home" element={<Home />}></Route>
+            <Route path="/gallery" element={<Gallery />}></Route>
             <Route path="*" element={<Navigate to="/home" replace />} />
           </Routes>
         </Router>
