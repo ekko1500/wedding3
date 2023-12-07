@@ -8,7 +8,7 @@ function HisStory() {
         vel orci porta, dignissim lacus vitae, tincidunt leo. Duis auctor nunc
         leo.
       </p>
-      <h2>Mg ..........</h2>
+      <h2 className=" text-2xl p-5 font-bold">Mg ..........</h2>
       <div className=" h-96 flex relative">
         <img
           src="https://img.freepik.com/premium-vector/groom-with-wedding-rings-flat-style-illustration_173706-663.jpg"

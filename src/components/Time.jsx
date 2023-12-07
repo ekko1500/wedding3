@@ -21,7 +21,7 @@ function Time() {
     <div className="  w-full flex flex-col items-center  gap-4 text-center  bg-brown-200 relative p-10">
       {data.map((item, index) => (
         <div key={index}>
-          <h1>{item.title}</h1>
+          <h1 className=" text-2xl p-5 font-bold">{item.title}</h1>
           <p>{item.description}</p>
         </div>
       ))}

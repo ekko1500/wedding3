@@ -8,7 +8,7 @@ function HerStory() {
         vel orci porta, dignissim lacus vitae, tincidunt leo. Duis auctor nunc
         leo.
       </p>
-      <h2>Ma ..........</h2>
+      <h2 className=" text-2xl p-5 font-bold">Ma ..........</h2>
       <div className=" h-96 flex relative">
         <img src="https://img.lovepik.com/original_origin_pic/18/04/21/447fe18ca6b4d733995c93fb110024c3.png_wh860.png" />
       </div>

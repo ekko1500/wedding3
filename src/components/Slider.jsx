@@ -1,6 +1,7 @@
 import { image11, image16, image28, image32 } from "../datas/Images";
 import { Carousel } from "@material-tailwind/react";
 // import { Carousel } from "../app/page";
+import placeholder from "../../public/img/placeholder.png";
 
 export default function Slider() {
   return (
@@ -38,21 +39,25 @@ export default function Slider() {
             src={image11}
             alt="image 1"
             className="h-auto w-full object-cover"
+            placeholder={placeholder}
           />
           <img
             src={image16}
             alt="image 2"
             className="h-auto w-full object-cover"
+            placeholder={placeholder}
           />
           <img
             src={image28}
             alt="image 3"
             className="h-auto w-full object-cover"
+            placeholder={placeholder}
           />
           <img
             src={image32}
             alt="image 3"
             className="h-auto w-48 object-cover"
+            placeholder={placeholder}
           />
         </Carousel>
         {/* <div className=" flex-1 absolute z-20 top-3/4 w-full h-14  items-center justify-center text-center">
