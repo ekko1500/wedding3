@@ -21,7 +21,7 @@ function Intro() {
 
         <h1 className=" font-bold lg:text-5xl sm:text-sm  text-blue-gray-700">
           {" "}
-          Mg Zayar Naing & Ma Khaing Zar Twal
+          Mg Zayar Naing & Ma Khine Zar Thwe
         </h1>
 
         <p className=" text-2xl text-blue-gray-600">SAVE THE DATE</p>

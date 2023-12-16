@@ -34,11 +34,7 @@ function Greet() {
           <br />
           <img src={header} />
           <br />
-          <Status
-            name="Ma Khine Zar Twe"
-            status1="BE (Civil)"
-            status2="(ဆည်မြောင်းနှင့် ရေအသုံးချမှုစီမံခန့်ခွဲရေးဦးစီးဌာန -တောင်ငူ)"
-          />
+          <Status name="Ma Khine Zar Thwe" status1="BE (Civil)" status2="" />
         </div>
       </div>
     </div>
