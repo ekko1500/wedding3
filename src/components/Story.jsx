@@ -15,11 +15,10 @@ function Story() {
       <br />
       <br />
       <div className=" text-4xl  text-blue-gray-100">
-        <h3 className=" text-4xl">First Met in 2002</h3>
+        <h3 className=" text-4xl">First Met in 2013</h3>
+
         <br />
-        <h3 className=" text-4xl">Fell in Love in 2010</h3>
-        <br />
-        <h3 className=" text-4xl">Get Married in 2022</h3>
+        <h3 className=" text-4xl">Get Married in 2023</h3>
       </div>
       <br />
       <br />

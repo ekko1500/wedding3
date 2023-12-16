@@ -40,7 +40,7 @@ export default function NavBar() {
               <div className="flex  flex-1 items-center justify-between  ">
                 {/* logo */}
                 <div className="  pt-1">
-                  <h2 className=" font-bold text-pink-300 ">NAMEHERE</h2>
+                  <h3 className=" font-bold text-pink-300 ">Zayar & Khine</h3>
                 </div>
                 {/* menu */}
                 <div className="hidden sm:ml-6 sm:block">

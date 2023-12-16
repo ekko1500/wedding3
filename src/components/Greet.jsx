@@ -16,7 +16,7 @@ function Greet() {
           <img src={header} />
           <br />
           <Status
-            name="Mg Zayar Naing"
+            name="Zay Yar Naing"
             status1="BE (Electronics Communication)"
             status2="(Founder of Tele Boss Fiber Internet Service Co.,ltd)"
           />
@@ -34,7 +34,7 @@ function Greet() {
           <br />
           <img src={header} />
           <br />
-          <Status name="Ma Khine Zar Thwe" status1="BE (Civil)" status2="" />
+          <Status name="Khine Zar Thwe" status1="BE (Civil)" status2="" />
         </div>
       </div>
     </div>
