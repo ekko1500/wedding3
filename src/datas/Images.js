@@ -29,7 +29,7 @@ import image28 from "../../public/img/forweb28.jpg";
 
 export { image3, image7, image26 };
 
-export const imageSlide = [image1, image2, image3, image4, image5];
+export const imageSlide = [image14, image17, image20, image23, image26];
 
 export const images = [
   image1,

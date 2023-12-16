@@ -4,6 +4,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap");
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -79,3 +81,24 @@
     font-family: "Satisfy", cursive;
   }
 }
+
+@font-face {
+  font-family: "Maddison"; /*Can be any text*/
+  src: url("./fonts/Maddison.ttf");
+}
+
+h1 {
+  font-family: "Maddison";
+}
+
+@font-face {
+  font-family: "GreateVibes"; /*Can be any text*/
+  src: url("./fonts/GreatVibes.otf");
+}
+h3 {
+  font-family: "GreatVibes";
+}
+
+/* * {
+  outline: 1px solid red;
+} */
