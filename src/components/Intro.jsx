@@ -17,9 +17,8 @@ function Intro() {
       >
         <FontAwesomeIcon
           icon={faQuoteLeft}
-          size="2xl"
           style={{ color: "#ec407a" }}
-          className="absolute top-2 left-4 sm:text-3xl"
+          className="absolute top-4 left-6 text-4xl sm:text-5xl"
         />
         <p className=" text-2xl text-blue-gray-600">WE ARE GETTING MARRIED</p>
 
@@ -39,9 +38,8 @@ function Intro() {
 
         <FontAwesomeIcon
           icon={faQuoteRight}
-          size="2xl"
           style={{ color: "#ec407a" }}
-          className="absolute bottom-2 right-4 sm:text-3xl"
+          className="absolute bottom-4 right-6 text-4xl sm:text-5xl"
         />
       </div>
     </div>

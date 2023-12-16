@@ -11,7 +11,7 @@ function Thanks() {
         <FontAwesomeIcon
           icon={faQuoteLeft}
           style={{ color: "#ec407a" }}
-          className="absolute top-4 left-6 text-6xl lg:text-6xl"
+          className="absolute top-4 left-6 text-5xl lg:text-6xl"
         />
 
         <h1 className="text-8xl sm:text-9xl">Thank You!</h1>
@@ -21,7 +21,7 @@ function Thanks() {
         <FontAwesomeIcon
           icon={faQuoteRight}
           style={{ color: "#ec407a" }}
-          className="absolute bottom-4 right-6 text-6xl  lg:text-6xl"
+          className="absolute bottom-4 right-6 text-5xl  lg:text-6xl"
         />
       </div>
     </div>

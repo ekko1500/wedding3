@@ -13,13 +13,13 @@ function Event({ name, des }) {
           icon={faQuoteLeft}
           m
           style={{ color: "#ec407a" }}
-          className="absolute top-0 left-0 text-4xl sm:text-3xl"
+          className="absolute top-0 left-0 text-4xl sm:text-5xl"
         />{" "}
         <p className=" text-4xl">{des}</p>
         <FontAwesomeIcon
           icon={faQuoteRight}
           style={{ color: "#ec407a" }}
-          className="absolute bottom-2 right-4 text-4xl sm:text-3xl"
+          className="absolute bottom-2 right-4 text-4xl sm:text-5xl"
         />
       </div>
     </div>
