@@ -24,7 +24,7 @@ function Story() {
       <br />
       <br />
 
-      <div className="grid grid-cols-2 md:grid-cols-3 sm:grid-cols-2 gap-4 w-full ">
+      <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-5 lg:gap-8 w-full lg:w-3/5">
         <div className="border-4 sm:border-8 border-white rounded">
           <img
             className="h-auto max-w-full rounded-lg border-2"
