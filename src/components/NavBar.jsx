@@ -48,7 +48,7 @@ export default function NavBar() {
                     {navigation.map((item) => (
                       <a
                         key={item.name}
-                        // href={item.href}
+                        href={item.href}
                         onClick={() => navigate(`${item.href}`)}
                         className={classNames(
                           location.pathname.includes(item.name.toLowerCase())
@@ -82,7 +82,7 @@ export default function NavBar() {
                     location.pathname.includes(item.name.toLowerCase())
                       ? " bg-pink-400 text-white"
                       : "text-gray-500 hover:bg-pink-50 hover:text-pink-300",
-                    "block rounded-md px-3 py-2 text-3xl mt-3 py-3 font-medium "
+                    "block rounded-md px-3  text-3xl mt-3 py-3 font-medium "
                   )}
                   aria-current={
                     location.pathname.includes(item.name.toLowerCase())
