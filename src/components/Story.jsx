@@ -2,7 +2,7 @@ import header from "../../public/img/header-img.png";
 import img1 from "../../public/img/forweb1.jpg";
 import img2 from "../../public/img/forweb8.jpg";
 import img3 from "../../public/img/forweb16.jpg";
-import img4 from "../../public/img/forweb5.jpg";
+import img4 from "../../public/img/forweb9.jpg";
 
 function Story() {
   return (
