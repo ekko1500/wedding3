@@ -21,7 +21,7 @@ function Greet() {
             status2="(Founder of Tele Boss Fiber Internet Service Co.,ltd)"
           />
         </div>
-        <div className="flex flex-col justify-center mt-2">
+        <div className="flex flex-col justify-center py-5 md:py-0 lg:py-0 ">
           <img
             className="max-w-full rounded-lg object-contain"
             src={middle}
