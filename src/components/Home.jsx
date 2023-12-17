@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Greet from "./Greet";
 import Intro from "./Intro";
 import Map from "./Map";
@@ -10,6 +11,10 @@ import { motion, useIsPresent } from "framer-motion";
 
 function Home() {
   const isPresent = useIsPresent();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="flex flex-col items-center ">
