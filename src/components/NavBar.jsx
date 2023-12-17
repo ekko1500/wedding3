@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 const navigation = [
   { name: "Home", href: "/home", current: true },
   { name: "Gallery", href: "/gallery", current: false },
-  { name: "About", href: "#", current: false },
+  // { name: "About", href: "#", current: false },
 ];
 
 function classNames(...classes) {
@@ -16,8 +16,6 @@ export default function NavBar() {
   const navigate = useNavigate();
 
   let location = useLocation();
-
-  console.log(location.pathname);
 
   return (
     <Disclosure as="nav" className="fixed z-10 w-full bg-white text-4xl     ">

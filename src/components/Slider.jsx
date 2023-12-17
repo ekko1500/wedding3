@@ -31,7 +31,6 @@ export default function Slider() {
         >
           {imageSlide.map((item, index) => (
             <div key={index}>
-              {console.log(item)}
               <img
                 src={item}
                 alt="image"
