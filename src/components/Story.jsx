@@ -2,6 +2,7 @@ import header from "../../public/img/header-img.png";
 import img1 from "../../public/img/forweb1.jpg";
 import img2 from "../../public/img/forweb8.jpg";
 import img3 from "../../public/img/forweb16.jpg";
+import img4 from "../../public/img/forweb5.jpg";
 
 function Story() {
   return (
@@ -36,6 +37,9 @@ function Story() {
         </div>
         <div className="border-4 sm:border-8 border-white rounded">
           <img className="h-auto max-w-full rounded-lg" src={img3} alt="" />
+        </div>
+        <div className="border-4 sm:border-8 border-white rounded">
+          <img className="h-auto max-w-full rounded-lg" src={img4} alt="" />
         </div>
       </div>
     </div>
