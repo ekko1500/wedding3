@@ -1,5 +1,5 @@
 import { images } from "../datas/Images";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import header from "../../public/img/header-img.png";
 
 import { motion, useIsPresent, useScroll, useSpring } from "framer-motion";
@@ -20,6 +20,10 @@ function Gallery() {
     setShow(true);
     setImg(img);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="  " style={{ backgroundColor: "#292c2b" }}>

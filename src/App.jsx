@@ -1,6 +1,6 @@
 // import Gallery from "../components/Gallery";
 import { ThemeProvider } from "@material-tailwind/react";
-import * as React from "react";
+
 import {
   BrowserRouter as Router,
   Route,
