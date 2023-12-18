@@ -22,7 +22,7 @@ function Intro() {
         />
         <p className=" text-2xl text-blue-gray-600">WE ARE GETTING MARRIED</p>
 
-        <h1 className=" font-bold lg:text-5xl sm:text-sm  text-blue-gray-700 tracking-widest">
+        <h1 className=" font-bold lg:text-5xl md:text-4xl sm:text-sm  text-blue-gray-700 tracking-widest">
           {" "}
           Zay Yar Naing
           <br />

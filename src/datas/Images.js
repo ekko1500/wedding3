@@ -30,6 +30,9 @@ import image29 from "../../public/img/forweb29.jpg";
 import image30 from "../../public/img/forweb30.jpg";
 import image31 from "../../public/img/forweb31.jpg";
 import image32 from "../../public/img/forweb32.jpg";
+import image33 from "../../public/img/forweb33.jpg";
+import image34 from "../../public/img/forweb34.jpg";
+import image35 from "../../public/img/forweb35.jpg";
 
 export { image3, image7, image26 };
 
@@ -68,4 +71,7 @@ export const images = [
   image30,
   image31,
   image32,
+  image33,
+  image34,
+  image35,
 ];
