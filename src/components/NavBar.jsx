@@ -38,9 +38,11 @@ export default function NavBar() {
               <div className="flex  flex-1 items-center justify-between  ">
                 {/* logo */}
                 <div className="  pt-1">
-                  <h3 className=" font-bold text-pink-300 text-4xl lg:text-5xl ">
-                    Zayar & Khine
-                  </h3>
+                  <a href="/home">
+                    <h3 className=" font-bold text-pink-300 text-4xl lg:text-5xl ">
+                      Zayar & Khine
+                    </h3>
+                  </a>
                 </div>
                 {/* menu */}
                 <div className="hidden sm:ml-6 sm:block">

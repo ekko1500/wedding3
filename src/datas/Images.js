@@ -26,38 +26,46 @@ import image25 from "../../public/img/forweb25.jpg";
 import image26 from "../../public/img/forweb26.jpg";
 import image27 from "../../public/img/forweb27.jpg";
 import image28 from "../../public/img/forweb28.jpg";
+import image29 from "../../public/img/forweb29.jpg";
+import image30 from "../../public/img/forweb30.jpg";
+import image31 from "../../public/img/forweb31.jpg";
+import image32 from "../../public/img/forweb32.jpg";
 
 export { image3, image7, image26 };
 
 export const imageSlide = [image14, image17, image20, image23, image26];
 
 export const images = [
-  image1,
+  // image1,
   image2,
   image3,
   image4,
-  image5,
+  // image5,
   image6,
   image7,
-  image8,
-  image9,
+  // image8,
+  // image9,
   image10,
-  image11,
+  // image11,
   image12,
   image13,
-  image14,
+  // image14,
   image15,
-  image16,
-  image17,
+  // image16,
+  // image17,
   image18,
   image19,
-  image20,
+  // image20,
   image21,
   image22,
-  image23,
-  image24,
+  // image23,
+  // image24,
   image25,
-  image26,
+  // image26,
   image27,
   image28,
+  // image29,
+  image30,
+  image31,
+  image32,
 ];

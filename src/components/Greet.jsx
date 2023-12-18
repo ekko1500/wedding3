@@ -1,5 +1,5 @@
 import header from "../../public/img/header-img.png";
-import middle from "../../public/img/forweb14.jpg";
+import middle from "../../public/img/forweb29.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 import Status from "./Status";
